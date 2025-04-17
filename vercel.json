@@ -1,8 +1,10 @@
 {
-    "builds": [
-      {
-        "src": "package.json",
-        "use": "@vercel/next"
-      }
-    ]
-  }
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/next"
+    }
+  ],
+  "installCommand": "pnpm install",
+  "buildCommand": "pnpm run build"
+}
